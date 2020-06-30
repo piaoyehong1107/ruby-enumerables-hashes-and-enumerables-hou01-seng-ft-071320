@@ -8,8 +8,8 @@
 
 def select_winner(passengers)
   passengers.each do |key,value|
-    key == suite_a
+    key == "suite_a"
     value.include? "A" 
-    puts value
+    p value
   end
 end

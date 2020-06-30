@@ -10,6 +10,6 @@ def select_winner(passengers)
   passengers.each do |key,value|
     key == "suite_a"
     value.include? "A" 
-    p value
+    return value
   end
 end

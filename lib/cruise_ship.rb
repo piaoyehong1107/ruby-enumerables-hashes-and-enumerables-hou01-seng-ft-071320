@@ -11,4 +11,5 @@ def select_winner(passengers)
     key == suite_a
     value.include? "A" 
     puts value
+  end
 end
